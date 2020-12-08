@@ -12,7 +12,7 @@
 * 此示例需要Spring Batch和HyperSQL 的依赖项
 
 ### 如何完成本指南
-推荐大家从头开始每个步骤，当然如果想跳过从创建项目开始的流程，可以直接克隆我已经写好的工程文件 @link{}
+推荐大家从头开始每个步骤，当然如果想跳过从创建项目开始的流程，可以直接克隆我已经写好的工程文件 .[https://github.com/yunnasheng/springboot-batch-processing.git]
 
 ####准备业务数据
 
