@@ -79,34 +79,5 @@
 
 * 1.运行项目：  `java -jar springboot-batch-processing-1.0.0.jar`
 
-* 2.测试结果：
-
-	2020-12-08 16:48:59.077  INFO 26373 --- [           main] c.l.p.SpringBatchProcessingApplication   : Starting SpringBatchProcessingApplication v1.0.0 on yunnashengdeMacBook-Pro.local with PID 26373 (/Users/yunnasheng/Desktop/springboot-batch-processing-1.0.0.jar started by yunnasheng in /Users/yunnasheng/Desktop)
-	2020-12-08 16:48:59.079  INFO 26373 --- [           main] c.l.p.SpringBatchProcessingApplication   : No active profile set, falling back to default profiles: default
-	2020-12-08 16:48:59.781  INFO 26373 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-	2020-12-08 16:49:00.143  INFO 26373 --- [           main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
-	2020-12-08 16:49:00.145  INFO 26373 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-	2020-12-08 16:49:00.322  INFO 26373 --- [           main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: HSQL
-	2020-12-08 16:49:00.514  INFO 26373 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
-	2020-12-08 16:49:00.584  INFO 26373 --- [           main] c.l.p.SpringBatchProcessingApplication   : Started SpringBatchProcessingApplication in 1.859 seconds (JVM running for 2.28)
-	2020-12-08 16:49:00.586  INFO 26373 --- [           main] o.s.b.a.b.JobLauncherApplicationRunner   : Running default command line with: []
-	2020-12-08 16:49:00.643  INFO 26373 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=importUserJob]] launched with the following parameters: [{run.id=1}]
-	2020-12-08 16:49:00.678  INFO 26373 --- [           main] .l.p.p.JobCompletionNotificationListener : job befor start...
-	2020-12-08 16:49:00.686  INFO 26373 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [step1]
-	2020-12-08 16:49:00.720  INFO 26373 --- [           main] c.l.p.processor.PersonProcessor          : Converting (firstName: Jill, lastName: Doe) into (firstName: JILL, lastName: DOE)
-	2020-12-08 16:49:00.720  INFO 26373 --- [           main] c.l.p.processor.PersonProcessor          : Converting (firstName: Joe, lastName: Doe) into (firstName: JOE, lastName: DOE)
-	2020-12-08 16:49:00.720  INFO 26373 --- [           main] c.l.p.processor.PersonProcessor          : Converting (firstName: Justin, lastName: Doe) into (firstName: JUSTIN, lastName: DOE)
-	2020-12-08 16:49:00.720  INFO 26373 --- [           main] c.l.p.processor.PersonProcessor          : Converting (firstName: Jane, lastName: Doe) into (firstName: JANE, lastName: DOE)
-	2020-12-08 16:49:00.720  INFO 26373 --- [           main] c.l.p.processor.PersonProcessor          : Converting (firstName: John, lastName: Doe) into (firstName: JOHN, lastName: DOE)
-	2020-12-08 16:49:00.728  INFO 26373 --- [           main] o.s.batch.core.step.AbstractStep         : Step: [step1] executed in 42ms
-	2020-12-08 16:49:00.730  INFO 26373 --- [           main] .l.p.p.JobCompletionNotificationListener : !!! JOB FINISHED! Time to verify the results
-	2020-12-08 16:49:00.731  INFO 26373 --- [           main] .l.p.p.JobCompletionNotificationListener : Found <firstName: JILL, lastName: DOE> in the database.
-	2020-12-08 16:49:00.731  INFO 26373 --- [           main] .l.p.p.JobCompletionNotificationListener : Found <firstName: JOE, lastName: DOE> in the database.
-	2020-12-08 16:49:00.731  INFO 26373 --- [           main] .l.p.p.JobCompletionNotificationListener : Found <firstName: JUSTIN, lastName: DOE> in the database.
-	2020-12-08 16:49:00.731  INFO 26373 --- [           main] .l.p.p.JobCompletionNotificationListener : Found <firstName: JANE, lastName: DOE> in the database.
-	2020-12-08 16:49:00.731  INFO 26373 --- [           main] .l.p.p.JobCompletionNotificationListener : Found <firstName: JOHN, lastName: DOE> in the database.
-	2020-12-08 16:49:00.733  INFO 26373 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=importUserJob]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED] in 56ms
-	2020-12-08 16:49:00.737  INFO 26373 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-	2020-12-08 16:49:00.739  INFO 26373 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-	
+* 2.测试结果： ![Alt text](/path/to/img.jpg "Click Me!")
 	
