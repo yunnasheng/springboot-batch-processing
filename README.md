@@ -2,7 +2,7 @@
 
 
 ### 目标
- 将一个CSV文件的英文名，全部转换成大写字母，然后存储到数据库
+> 将一个CSV文件的英文名，全部转换成大写字母，然后存储到数据库
 
 ### 环境
 * 阅读耗时约15分钟 
@@ -12,9 +12,11 @@
 * 此示例需要Spring Batch和HyperSQL 的依赖项
 
 ### 如何完成本指南
-推荐大家从头开始每个步骤，当然如果想跳过从创建项目开始的流程，可以直接克隆我已经写好的工程文件 [https://github.com/yunnasheng/springboot-batch-processing.git]
+推荐大家从头开始每个步骤，当然如果想跳过从创建项目开始的流程，可以直接克隆我已经写好的工程文件
 
-####准备业务数据
+ [https://github.com/yunnasheng/springboot-batch-processing.git]
+
+#### 准备业务数据
 
 
 * 1.准备测试数据`/src/main/resources/sample-data.csv`
@@ -42,7 +44,7 @@
 #### 创建springboot Maven项目
 * pom.xml依赖如下：
 	
-	<dependencies>
+	``` <dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-batch</artifactId>
@@ -68,8 +70,9 @@
 			<artifactId>spring-batch-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
-
+	</dependencies> 
+```
+	
 * 1.创建一个实体类Person
 * 2.创建PersonProcessor类处理大小写转换
 * 3.创建BatchConfiguration类作为配置类
@@ -77,7 +80,7 @@
 
 #### 测试
 
-* 1.运行项目：  `java -jar springboot-batch-processing-1.0.0.jar`
+* 1.运行项目：  ```java -jar springboot-batch-processing-1.0.0.jar```
 
 * 2.测试结果： ![Alt text](/path/to/img.jpg "Click Me!")
-	
+
